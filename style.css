@@ -1,0 +1,24 @@
+.halfboxes {display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.halfboxes div, .thirdboxes div, .quarterboxes div {
+    flex: 1;
+}
+
+.thirdboxes {display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.quarterboxes {display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+p {color: gray;
+font-family: 'Oxygen', sans-serif;
+}
+
+button {background-color: seagreen;}
