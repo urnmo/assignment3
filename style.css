@@ -5,6 +5,8 @@ align-items: center;
 
 .halfboxes div, .thirdboxes div, .quarterboxes div {
     flex: 1;
+    border: .15px solid gray;
+    margin: 0;
 }
 
 .thirdboxes {display: flex;
@@ -19,6 +21,34 @@ align-items: center;
 
 p {color: gray;
 font-family: 'Oxygen', sans-serif;
+font-size: 80%;
+font-weight: bold;
+padding: 3%;
+margin: 0%;
 }
 
-button {background-color: seagreen;}
+
+input {border-style: none;
+width: 95%;
+padding: 3%;
+}
+
+select {border-style: none;
+width: 95%;
+padding: 3%;
+width: 85%;
+margin: 2.65%}
+
+button {background-color: #90BD61;
+margin: 20px 0;
+padding: 1% 15%;
+text-align: center;
+margin: 3% 30%;
+color:  white;
+font-weight: bold;
+font-size: .95em;
+border-radius: 5px;
+border-style: none;
+
+
+}
